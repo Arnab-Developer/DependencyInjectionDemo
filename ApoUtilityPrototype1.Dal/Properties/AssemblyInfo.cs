@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("ApoUtilityPrototype1.Dal")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Cambridge Assessment")]
+[assembly: AssemblyCompany("Arnab Roy Chowdhury")]
 [assembly: AssemblyProduct("ApoUtilityPrototype1.Dal")]
-[assembly: AssemblyCopyright("Copyright © Cambridge Assessment 2016")]
+[assembly: AssemblyCopyright("Copyright © Arnab Roy Chowdhury 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
