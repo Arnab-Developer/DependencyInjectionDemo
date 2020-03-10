@@ -23,11 +23,11 @@ namespace ApoUtilityPrototype1.ServiceTest
         public void Login_Success_Test()
         {
             var userAccount = new UserAccount
-                {
-                    UserId = 1,
-                    Name = "admin",
-                    Password = "admin"
-                };
+            {
+                UserId = 1,
+                Name = "admin",
+                Password = "admin"
+            };
             _bllMock.Setup(b => b.IsAuthenticUser(userAccount)).Returns(true);
 
             bool isValidUser = _loginService.IsAuthenticUser(userAccount);
@@ -39,11 +39,11 @@ namespace ApoUtilityPrototype1.ServiceTest
         public void Login_Fail_Test()
         {
             var userAccount = new UserAccount
-                {
-                    UserId = 1,
-                    Name = "jon",
-                    Password = "admin"
-                };
+            {
+                UserId = 1,
+                Name = "jon",
+                Password = "admin"
+            };
             _bllMock.Setup(b => b.IsAuthenticUser(userAccount)).Returns(false);
 
             bool isValidUser = _loginService.IsAuthenticUser(userAccount);

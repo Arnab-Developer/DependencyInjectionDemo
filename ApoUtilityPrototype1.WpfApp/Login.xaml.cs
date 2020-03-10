@@ -1,5 +1,5 @@
-﻿using System.Windows;
-using ApoUtilityPrototype1.WpfApp.ServiceProxies;
+﻿using ApoUtilityPrototype1.WpfApp.ServiceProxies;
+using System.Windows;
 
 namespace ApoUtilityPrototype1.WpfApp
 {
@@ -18,11 +18,11 @@ namespace ApoUtilityPrototype1.WpfApp
             using (var proxy = new LoginServiceProxy())
             {
                 var userAcount = new UserAccount
-                    {
-                        UserId = 1,
-                        Name = TxtUserName.Text,
-                        Password = TxtPassword.Text
-                    };
+                {
+                    UserId = 1,
+                    Name = TxtUserName.Text,
+                    Password = TxtPassword.Text
+                };
                 bool isValidUser = proxy.IsAuthenticUser(userAcount);
             }
         }

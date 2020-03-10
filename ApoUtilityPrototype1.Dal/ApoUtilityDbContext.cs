@@ -1,5 +1,5 @@
-﻿using System.Data.Entity;
-using ApoUtilityPrototype1.DomainModels;
+﻿using ApoUtilityPrototype1.DomainModels;
+using System.Data.Entity;
 
 namespace ApoUtilityPrototype1.Dal
 {

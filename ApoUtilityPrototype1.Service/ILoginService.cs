@@ -1,5 +1,5 @@
-﻿using System.ServiceModel;
-using ApoUtilityPrototype1.DomainModels;
+﻿using ApoUtilityPrototype1.DomainModels;
+using System.ServiceModel;
 
 namespace ApoUtilityPrototype1.Service
 {

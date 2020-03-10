@@ -1,5 +1,5 @@
-﻿using System;
-using ApoUtilityPrototype1.DI;
+﻿using ApoUtilityPrototype1.DI;
+using System;
 
 namespace ApoUtilityPrototype1.WcfServiceHost
 {

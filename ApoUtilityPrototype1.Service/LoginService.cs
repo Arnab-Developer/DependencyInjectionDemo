@@ -1,7 +1,7 @@
-﻿using System.ServiceModel.Activation;
-using ApoUtilityPrototype1.Contracts;
+﻿using ApoUtilityPrototype1.Contracts;
 using ApoUtilityPrototype1.DI;
 using ApoUtilityPrototype1.DomainModels;
+using System.ServiceModel.Activation;
 
 namespace ApoUtilityPrototype1.Service
 {

@@ -1,7 +1,7 @@
-﻿using System;
-using System.Linq;
-using ApoUtilityPrototype1.Contracts;
+﻿using ApoUtilityPrototype1.Contracts;
 using ApoUtilityPrototype1.DomainModels;
+using System;
+using System.Linq;
 
 namespace ApoUtilityPrototype1.Dal
 {
@@ -15,7 +15,7 @@ namespace ApoUtilityPrototype1.Dal
                                            where u.Name == user.Name
                                                  && u.Password == user.Password
                                            select u).SingleOrDefault();
-                
+
                 return (userAccount != null);
             }
         }
