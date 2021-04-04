@@ -1,1 +1,1 @@
-Example of DI
+Example of dependency injection
