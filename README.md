@@ -1,1 +1,3 @@
-Example of dependency injection
+# Dependency injection demo
+
+Example of dependency injection with Castle Windsor
